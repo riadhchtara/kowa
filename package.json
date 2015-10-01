@@ -1,7 +1,7 @@
 {
   "name": "kowa",
-  "version": "0.0.1",
-  "description": "Interact with Firefox Sync Servers",
+  "version": "0.0.2",
+  "description": "Kowa core: asynchronous performance and synchronous simplicity",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"

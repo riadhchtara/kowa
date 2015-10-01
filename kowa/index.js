@@ -1,7 +1,6 @@
 "use strict";
 
-// external dependencies
-module.exports = function () {
+
 
 /* -*- indent-tabs-mode: nil; js-indent-level: 2 -*- */
 /* vim: set ts=2 et sw=2 tw=80 filetype=javascript: */
@@ -465,7 +464,7 @@ TaskImpl.prototype = {
 };
 
 
-Task.Debugging = {
+this.Task.Debugging = {
 
   /**
    * Control stack rewriting.
@@ -527,13 +526,9 @@ Task.Debugging = {
   }
 };
 
-  function Kowa() {
-     this.a = 5;
-  }
 
-  Kowa.prototype.one = function() {
-    return 1;
-  };
-
-  return Kowa;
+let task = this.Task;
+// external dependencies
+module.exports = function () {
+  return task;
 }

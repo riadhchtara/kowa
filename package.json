@@ -1,0 +1,21 @@
+{
+  "name": "kowa",
+  "version": "0.0.1",
+  "description": "Interact with Firefox Sync Servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": "https://github.com/riadhchtara/kowa",
+  "keywords": [
+    "async",
+    "sync",
+    "kowa",
+    "task",
+    "promise"
+  ],
+  "author": "Riadh Chtara",
+  "license": "APL 2.0",
+  "dependencies": {
+  }
+}
